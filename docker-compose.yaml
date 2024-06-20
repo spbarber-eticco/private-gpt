@@ -10,6 +10,8 @@ services:
       PORT: 8080
       PGPT_PROFILES: docker
       PGPT_MODE: ollama
+      HUGGINGFACE_TOKEN: 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
+      
   ollama:
     image: ollama/ollama:latest
     volumes:
